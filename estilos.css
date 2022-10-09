@@ -1,3 +1,33 @@
+:root {
+    --naranja: #f5a623;
+    --blanco: #fff;
+    --negro : #000;
+    --grisOscuro: #333;
+    --grisClaro: #999;
+
+}
+
+
+
+
+
+
 body {
-    background-color: aquamarine;
+    background-color: var(--grisOscuro);
+    background-image: url(./images/pattern.jpg);
+}
+.cabecera{
+    background-color: yellow;
+
+    display: flex;
+    justify-content: space-between;
+}
+.cabecera ,
+.contenido{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido{
+    background-color: var(--blanco);
 }
